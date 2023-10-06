@@ -15,11 +15,18 @@ export default async function Index() {
 
         <div className="flex mx-auto lg:w-1/3 lg:mr-0">
           <div className="lg:fixed flex lg:flex-col ml-auto">
-            <img
-              alt={"Logo"}
-              src={coverImage}
-              className="p-4 py-8 w-[70%] lg:w-full"
-            />
+            <div>
+              <img
+                alt={"Logo"}
+                src={coverImage}
+                className="p-4 py-8 pb-0 w-[70%] lg:w-full"
+              />
+              <div className="pb-4">
+                <h3 className="px-14 text-primary font-semibold text-3xl">
+                  Political Communication & Computational methods
+                </h3>
+              </div>
+            </div>
             <ul className="flex flex-col lg:mx-auto justify-center prose md:prose-xl lg:prose-2xl">
               <Links />
             </ul>
